@@ -1,0 +1,22 @@
+{
+    "name":        "kunstmaan/newrelicbundle",
+    "description": "Some useful code for integrating with NewRelic",
+    "keywords":    ["deployment","saas", "monitoring"],
+    "homepage":    "http://www.kunstmaan.be",
+    "license":     "MIT",
+    "authors":[
+        {
+            "name":  "Roderik van der Veer",
+            "email": "roderik.van.der.veer@kunstmaan.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.0.0"
+    },
+    "autoload":{
+        "psr-0":{
+            "Kunstmaan": "src/"
+        }
+    }
+}
