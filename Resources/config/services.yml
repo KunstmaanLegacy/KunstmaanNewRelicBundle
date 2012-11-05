@@ -1,0 +1,13 @@
+parameters:
+#    kunstmaan_new_relic.example.class: Kunstmaan\NewRelicBundle\Example
+
+services:
+#    kunstmaan_new_relic.example:
+#        class: %kunstmaan_new_relic.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    kunstmaan_new_relic.transactionname:
+        class: Kunstmaan\NewRelicBundle\EventListener\TransactionNameListener
+#        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller, method: setTransactionName }
