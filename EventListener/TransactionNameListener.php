@@ -11,7 +11,9 @@ class TransactionNameListener
     {
         if(function_exists("newrelic_name_transaction")){
             $controller = $event->getRequest()->attributes->get('_controller');
-            newrelic_name_transaction($controller);
+            $arr = array_reverse(explode('\\', $controller));
+            newrelic_name_transaction($arr[0]);
         }
     }
+
 }
