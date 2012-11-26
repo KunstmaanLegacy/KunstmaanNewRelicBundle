@@ -2,17 +2,10 @@
 
 namespace Kunstmaan\NewRelicBundle\Helper;
 
-use Symfony\Component\EventDispatcher\Event;
-
-use Kunstmaan\NodeBundle\Entity\HasNodeInterface;
-use Kunstmaan\NodeBundle\Entity\Node;
-use Kunstmaan\NodeBundle\Entity\NodeVersion;
-use Kunstmaan\NodeBundle\Entity\NodeTranslation;
-
 /**
- * CustomMetricEvent
+ * CustomMetrics
  */
-class CustomMetrics extends Event
+class CustomMetrics
 {
 
     /**
@@ -22,7 +15,7 @@ class CustomMetrics extends Event
     public function send($name, $value)
     {
         if (extension_loaded("newrelic")) {
-            newrelic_custom_metric($event->getName(), $event->getValue());
+            newrelic_custom_metric($name, $value);
         }
     }
 
