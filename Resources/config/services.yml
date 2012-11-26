@@ -8,6 +8,8 @@ services:
 
     kunstmaan_new_relic.transactionname:
         class: Kunstmaan\NewRelicBundle\EventListener\TransactionNameListener
-#        arguments: ["@doctrine.orm.entity_manager"]
         tags:
             - { name: kernel.event_listener, event: kernel.controller, method: setTransactionName }
+            
+    kunstmaan_new_relic.custom_metrics:
+        class: Kunstmaan\NewRelicBundle\Helper\CustomMetrics
