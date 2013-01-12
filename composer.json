@@ -1,8 +1,8 @@
 {
     "name":        "kunstmaan/newrelicbundle",
-    "description": "Some useful code for integrating with NewRelic",
+    "description": "This bundle adds support for NewRelic's named transactions to you Symfony2 project so that every controller and action is tracked separately and not everything under app.php. This also means you can start using the Key Transactions feature of NewRelic.",
     "keywords":    ["deployment","saas", "monitoring"],
-    "homepage":    "http://www.kunstmaan.be",
+    "homepage":    "https://github.com/Kunstmaan/KunstmaanNewRelicBundle",
     "license":     "MIT",
     "authors":[
         {
