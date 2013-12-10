@@ -9,7 +9,7 @@ Are you tired to see `/app.php` as transaction in your NewRelic account? Good ne
 composer.json
 ```json
     "require": {
-        "kunstmaan/newrelicbundle": "0.*"
+        "kunstmaan/newrelicbundle": "*"
     },
 ```
 
