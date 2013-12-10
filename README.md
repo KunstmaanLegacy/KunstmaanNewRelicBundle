@@ -58,3 +58,16 @@ $loader->registerNamespaces(array(
     // ...
 ));
 ```
+
+Multiple environments support
+-----------------------------
+
+To enable NewRelic for a specific environment, add these lines to the config.yml file for the environment
+(ie. config_prod.yml) :
+
+```
+kunstmaan_new_relic:
+    enabled: true
+```
+
+Note that NewRelic is disabled by default.
