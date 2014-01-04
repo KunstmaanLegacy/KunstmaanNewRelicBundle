@@ -2,8 +2,8 @@ KunstmaanNewRelicBundle
 =======================
 
 [![Build Status](https://travis-ci.org/Kunstmaan/KunstmaanNewRelicBundle.png?branch=master)](http://travis-ci.org/Kunstmaan/KunstmaanNewRelicBundle)
-[![Total Downloads](https://poser.pugx.org/kunstmaan/newrelic-bundle/downloads.png)](https://packagist.org/packages/kunstmaan/newrelic-bundle)
-[![Latest Stable Version](https://poser.pugx.org/kunstmaan/newrelic-bundle/v/stable.png)](https://packagist.org/packages/kunstmaan/newrelic-bundle)
+[![Total Downloads](https://poser.pugx.org/kunstmaan/newrelicbundle/downloads.png)](https://packagist.org/packages/kunstmaan/newrelicbundle)
+[![Latest Stable Version](https://poser.pugx.org/kunstmaan/newrelicbundle/v/stable.png)](https://packagist.org/packages/kunstmaan/newrelicbundle)
 [![Analytics](https://ga-beacon.appspot.com/UA-3160735-7/Kunstmaan/KunstmaanNewRelicBundle)](https://github.com/igrigorik/ga-beacon)
 
 Are you tired to see `/app.php` as transaction in your NewRelic account? Good new then, the guys at NewRelic are planning to add Symfony2 support to their PHP extension but since there is no timeline for the release yet, i created this very small (4LOC) bundle that sets the transaction name to the controller and action. For example, you will now see `/WelcomeController::indexAction`. This also means you can start using the Key Transactions feature of NewRelic.
