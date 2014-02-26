@@ -1,3 +1,6 @@
+IMPORTANT: We recommend that you no longer use this bundle. Since it's inception EkinoNewRelicBundle has appeared and is better maintained and has more features.
+
+
 KunstmaanNewRelicBundle
 =======================
 
