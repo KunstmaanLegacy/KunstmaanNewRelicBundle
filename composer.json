@@ -1,8 +1,8 @@
 {
     "name":        "kunstmaan/newrelicbundle",
-    "description": "This bundle adds support for NewRelic's named transactions to you Symfony2 project so that every controller and action is tracked separately and not everything under app.php. This also means you can start using the Key Transactions feature of NewRelic.",
+    "description": "THIS REPO IS DEPRECATED: replaced by EkinoNewRelicBundle | This bundle adds support for NewRelic's named transactions to you Symfony2 project so that every controller and action is tracked separately and not everything under app.php. This also means you can start using the Key Transactions feature of NewRelic.",
     "keywords":    ["kunstmaan","deployment","saas", "monitoring"],
-    "homepage":    "https://github.com/Kunstmaan/KunstmaanNewRelicBundle",
+    "homepage":    "https://github.com/KunstmaanLegacy/KunstmaanNewRelicBundle",
     "license":     "MIT",
     "authors":[
         {
